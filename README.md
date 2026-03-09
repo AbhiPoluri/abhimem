@@ -154,12 +154,6 @@ If you use Obsidian, abhimem can sync both ways:
 
 ---
 
-## notesgraph integration
-
-[notesgraph](https://github.com/AbhiPoluri/notesgraph-dad) reads from `~/.abhimem/memory.db` and renders memories as orange nodes in the graph view. The `/api/memory-edges` endpoint computes pairwise cosine similarity and draws edges between semantically related memories, giving you a visual map of how your knowledge is connected.
-
----
-
 ## Architecture notes
 
 - **No cloud.** Everything runs locally. Ollama, SQLite, the MCP server — all on-device.
