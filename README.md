@@ -145,6 +145,14 @@ The hook log shows every extraction run: which facts were found, which were skip
 
 ---
 
+## notesgraph integration
+
+[notesgraph](https://github.com/AbhiPoluri/notesgraph) is a companion local notes app with a graph visualizer. It reads from `~/.abhimem/memory.db` and renders your memories as orange nodes on the same graph as your notes — so you can see how your notes and Claude's memory relate to each other.
+
+No configuration needed if both apps use default paths. Just run notesgraph and open the Graph tab.
+
+---
+
 ## Obsidian integration
 
 If you use Obsidian, abhimem can sync both ways:
